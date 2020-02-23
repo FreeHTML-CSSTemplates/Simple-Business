@@ -1,0 +1,174 @@
+/* General CSS */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5;
+}
+
+p{
+    width: 96%;
+    margin: 2%;
+}
+
+h1{
+    text-align: center;
+}
+
+#root{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    display: block;
+}
+
+/* Nav Specific CSS */
+#nav{
+    height: 65px;
+    background-color: #dac5c5;
+}
+
+#nav li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#nav ul{
+    float: right;
+    margin-right: 2%;
+}
+
+#navright{
+    float: right;
+    width: 48%;
+    margin-left: 1%;
+}
+
+#navleft{
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+}
+
+#nav h1{
+    vertical-align: middle;
+    margin-top: 50% auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+#navicon{
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#nav a{
+    padding: 15px;
+    border-radius: 25px 0px 25px 0px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#nav a:hover{
+    background-color: #2a2b3c;
+    color: white;
+}
+
+/* Banner */
+#banner{
+    margin: 0em;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background-image: url("./assets/banner_image.png");
+}
+
+#banner h1{
+    font-size: 100px;
+    margin: 0px;
+}
+
+#banner h3{
+    font-size: 25px;
+}
+
+/* Products CSS */
+.product_price{
+    font-weight: bolder;
+}
+
+.product_name{
+    font-size: 25px;
+    font-weight: 30;
+}
+
+#container .left, #container .right, #container .middle{
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+}
+
+#container {
+    width: 96%;
+    margin: 2%;
+}
+
+/* Contact CSS */
+#contact p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 474px) {
+    /* General CSS */
+
+    /* Nav Specific CSS*/
+    #nav{
+        height: 125px;
+    }
+
+    #nav li{
+        margin: 10px;
+        display: block;
+    }
+
+    #nav a{
+        padding: 5px;
+        margin: 2px;
+        border-radius: 25px;
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 475px) {
+    /* General CSS */
+
+    /* Nav Specific CSS*/
+    #nav{
+        height: 125px;
+    }
+
+    #nav li{
+        margin: 10px;
+        display: block;
+    }
+
+    #nav a{
+        padding: 5px;
+        margin: 2px;
+        border-radius: 25px;
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+}
